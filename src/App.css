@@ -3,9 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+.app {
+  background-color: #fafafa;
+  height: 100vh;
+}
 
 .app__headerImage {
   object-fit: contain;
   height: 100px;
-  width: 100px;
+  width: 100%;
+  padding: 20px;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
 }
